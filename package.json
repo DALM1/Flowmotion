@@ -1,0 +1,35 @@
+{
+  "name": "@dalm1/flowmotion",
+  "version": "1.0.0",
+  "description": "A React library for seamless page transitions",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "transitions",
+    "animations",
+    "react-router"
+  ],
+  "author": "DALM1",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.25.9",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.0.0"
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.0.0"
+  }
+}
