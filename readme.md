@@ -1,13 +1,19 @@
 
 # **FlowMotion**
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/DALM1/Flowmotion?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/DALM1/Flowmotion?style=for-the-badge)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/DALM1/Flowmotion?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/DALM1/Flowmotion?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/DALM1/Flowmotion?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/DALM1/Flowmotion?style=for-the-badge)
 
-**FlowMotion** est une librairie React légère et intuitive pour gérer des transitions fluides entre des pages ou des composants. Basée sur **@react-spring/web**, elle vous permet de créer des animations dynamiques avec une configuration minimale.
+**FlowMotion** is a lightweight and intuitive React library for managing smooth transitions between pages or components. Based on **@react-spring/web**, it allows you to create dynamic animations with minimal configuration.
 
 ---
 
 ## 🚀 **Installation**
 
-Ajoutez FlowMotion à votre projet avec npm :
+Add FlowMotion to your project with npm :
 
 ```bash
 npm install flowmotion
@@ -17,9 +23,9 @@ npm install flowmotion
 
 ## 📖 **Usage**
 
-Voici comment utiliser **FlowMotion** pour animer des transitions de pages ou de composants.
+Here’s how to use **FlowMotion** to animate page or component transitions.
 
-### Exemple d'utilisation basique
+### Basic usage example
 
 ```javascript
 import React, { useState } from 'react';
@@ -53,24 +59,24 @@ export default App;
 
 ### **PageTransition**
 
-Le composant principal pour gérer les transitions.
+The main component for managing transitions.
 
 | Prop         | Type     | Description                                                                 |
 |--------------|----------|-----------------------------------------------------------------------------|
-| `location`   | `any`    | Une clé unique pour identifier l'état ou la page actuelle (ex : route, ID). |
-| `children`   | `func`   | Une fonction qui retourne le contenu à afficher dans la transition.         |
+| `location`   | `any`    | A unique key to identify the current state or page (e.g., route, ID).       |
+| `children`   | `func`   | A function that returns the content to display during the transition.       |
 
 ---
 
-## 🧙‍♂️ **Comment ça fonctionne ?**
+## 🧙‍♂️ **How does it work?**
 
-FlowMotion utilise `useTransition` de **@react-spring/web** pour animer les transitions en fonction de la propriété `location`. Chaque nouvelle `location` déclenche une animation de sortie et d'entrée.
+FlowMotion uses `useTransition` from **@react-spring/web** to animate transitions based on the `location` property. Each new `location` triggers an exit and entry animation.
 
 ---
 
-## 📦 **Exemple avancé**
+## 📦 **Advanced Example**
 
-Voici un exemple avec des styles personnalisés et des transitions complexes :
+Here is an example with custom styles and complex transitions:
 
 ```javascript
 import React, { useState } from 'react';
@@ -113,9 +119,9 @@ export default App;
 
 ---
 
-## 🛠️ **Configuration avancée**
+## 🛠️ **Advanced Configuration**
 
-Vous pouvez personnaliser les animations en modifiant les styles ou les paramètres d'entrée/sortie dans `PageTransition` :
+You can customize the animations by modifying the styles or the entry/exit settings in `PageTransition`:
 
 ```javascript
 const transitions = useTransition(location, {
@@ -129,12 +135,10 @@ const transitions = useTransition(location, {
 
 ## 👩‍💻 **Contributions**
 
-Les contributions sont les bienvenues ! Si vous trouvez un bug ou avez une suggestion, créez une issue ou soumettez une pull request sur [GitHub](https://github.com/yourusername/flowmotion).
+Contributions are welcome! If you find a bug or have a suggestion, please create an issue or submit a pull request on [GitHub](https://github.com/DALM1/flowmotion).
 
 ---
 
-## 📝 **Licence**
+## 📝 **License**
 
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
-# Flowmotion
-# Flowmotion
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
